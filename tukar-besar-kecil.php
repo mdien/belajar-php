@@ -1,13 +1,7 @@
 <?php
 function tukar_besar_kecil($string){
 //kode di sini
-    $alfabet = "abcdefghijklmnopqrstuvwxyz";
-    $output = "";
-    for($i=0;$i<strlen($string);$i++){
-        $posisi = strpos($alfabet,$string[$i]);
-        $output .= substr($alfabet, $posisi+1,1);
-    }
-    return $output;
+
 }
 
 // TEST CASES
